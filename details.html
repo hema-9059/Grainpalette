@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rice Type Classification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .navbar {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            color: lightgreen;
+        }
+        .container {
+            text-align: center;
+            margin: 50px auto;
+            background-color: white;
+            padding: 30px;
+            width: 60%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: black;
+        }
+        .upload-box {
+            margin-top: 20px;
+        }
+        input[type="file"] {
+            margin: 10px 0;
+        }
+        button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: darkred;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        RICE TYPE CLASSIFICATION
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Contact</a>
+        <a href="#" style="color: lightgreen;">Predict</a>
+    </div>
+
+    <div class="container">
+        <h2>Upload Your Image</h2>
+        <div class="upload-box">
+            <input type="file" id="imageUpload">
+            <br>
+            <button onclick="redirectToResults()">Upload</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Rice</p>
+        <p>A108 Adam Street, Pune, 535022, India</p>
+        <p>Phone: +91 55895 54885</p>
+        <p>Useful Links | Our Services</p>
+    </div>
+
+    <script>
+        function redirectToResults() {
+            window.location.href = "results.html";
+        }
+    </script>
+
+</body>
+</html>
