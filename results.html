@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rice Type Classification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: black;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+        }
+        .image-container {
+            flex: 1;
+            text-align: center;
+        }
+        .image-container img {
+            width: 90%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            text-align: left;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">RICE TYPE CLASSIFICATION</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Testimonials</a>
+            <a href="contact.html">Contact</a>
+            <a href="details.html">Predict</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="image-container">
+            <img src="RDImage.png" alt="Rice Harvesting Image">
+        </div>
+        <div class="content">
+            <h2>Results</h2>
+            <p>Based on the image given as input, the AI model has predicted that there is a high possibility for your rice to be of type:</p>
+            <h3>Basmathi</h3>
+        </div>
+    </div>
+    
+    <div class="footer">
+        &copy; 2024 Rice Type Classification. All rights reserved.
+    </div>
+</body>
+</html>
